@@ -1,0 +1,16 @@
+{
+  "name": "detect_colors_ai",
+  "version": "1.0.0",
+  "description": "detect colors for huge things!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "detect": "node index.js",
+    "count": "node count_colors.js"
+  },
+  "author": "Toni Minge",
+  "license": "ISC",
+  "dependencies": {
+    "colorthief": "^2.3.2"
+  }
+}
